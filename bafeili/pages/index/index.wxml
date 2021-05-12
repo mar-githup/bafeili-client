@@ -1,0 +1,53 @@
+<!--index.wxml-->
+<!-- 分类跳转按钮 -->
+<navigator url="/pages/navigate/navigate?title=navigate" hover-class="navigator-hover"><image src="/static/images/tabbar/cate2.png" ></image></navigator>
+<!-- 首页页内小导航 -->
+<view class="tab">
+  <view class="tab-item {{tab==0?'active':''}}" bindtap="changeItem" data-item="0">
+    <text>新品</text>
+    <view class="triangle {{tab==0?'block':''}}"></view>
+  </view>
+  <view class="tab-item {{tab==1?'active':''}}" bindtap="changeItem" data-item="1">
+    <text>人气推荐</text>
+    <view class="triangle {{tab==1?'block':''}}"></view>
+  </view>
+  <view class="tab-item {{tab==2?'active':''}}" bindtap="changeItem" data-item="2">
+    <text> SALE</text>
+    <view class="triangle {{tab==2?'block':''}}"></view>
+  </view>
+  <view class="tab-item {{tab==3?'active':''}}" bindtap="changeItem" data-item="3">
+    <text>搭配课堂</text>
+    <view class="triangle {{tab==3?'block':''}}"></view>
+  </view>
+  <view class="tab-item {{tab==4?'active':''}}" bindtap="changeItem" data-item="4">
+    <text>护理知识</text>
+    <view class="triangle {{tab==4?'block':''}}"></view>
+  </view>
+  <view class="tab-item {{tab==5?'active':''}}" bindtap="changeItem" data-item="5">
+    <text>全部商品</text>
+    <view class="triangle {{tab==5?'block':''}}"></view>
+  </view>
+</view>
+<view class="contain">
+  <swiper class="navwrap" current="{{item}}" bindchange="changeTab">
+    <swiper-item>
+      <include src="newgoods.wxml"/>
+    </swiper-item>
+    <swiper-item>
+      <include src="recommend.wxml"/>
+    </swiper-item>
+    <swiper-item>
+      <include src="sale.wxml"/>
+    </swiper-item>
+    <swiper-item>
+      <include src="match.wxml"/>
+    </swiper-item>
+    <swiper-item>
+      <include src="nurse.wxml"/>
+    </swiper-item>
+    <swiper-item>
+      <include src="allgoods.wxml"/>
+    </swiper-item>
+  </swiper>
+</view>
+

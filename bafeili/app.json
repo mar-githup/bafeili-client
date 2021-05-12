@@ -1,0 +1,52 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/shopcar/shopcar",
+    "pages/code/code",
+    "pages/center/center",
+    "pages/store/store",
+    "pages/navigate/navigate"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "BAFEILI(芭菲丽)",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#ccc",
+    "selectedColor": "#515151",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/images/tabbar/home.png",
+        "selectedIconPath": "static/images/tabbar/home_1.png",
+        "text": "首页"
+      },{
+        "pagePath": "pages/shopcar/shopcar",
+        "iconPath": "static/images/tabbar/shopcar.png",
+        "selectedIconPath": "static/images/tabbar/shopcar_1.png",
+        "text": "购物袋"
+      },{
+        "pagePath": "pages/code/code",
+        "iconPath": "static/images/tabbar/code.png",
+        "selectedIconPath":"static/images/tabbar/code_1.png",
+        "text": "扫一扫"
+      },{
+        "pagePath": "pages/center/center",
+        "iconPath": "static/images/tabbar/center.png",
+        "selectedIconPath":"static/images/tabbar/center_1.png",
+        "text": "个人中心"
+      },{
+        "pagePath": "pages/store/store",
+        "iconPath": "static/images/tabbar/store.png",
+        "selectedIconPath":"static/images/tabbar/store_1.png",
+        "text": "零售店"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
