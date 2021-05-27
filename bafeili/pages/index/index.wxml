@@ -1,5 +1,5 @@
 <!--index.wxml-->
-<!-- 分类跳转按钮 -->
+<!-- 分类和搜索跳转按钮 -->
 <navigator url="/pages/navigate/navigate?title=navigate" hover-class="navigator-hover"><image src="/static/images/tabbar/cate2.png" ></image></navigator>
 <!-- 首页页内小导航 -->
 <view class="tab">
@@ -30,22 +30,22 @@
 </view>
 <view class="contain">
   <swiper class="navwrap" current="{{item}}" bindchange="changeTab">
-    <swiper-item>
+    <swiper-item class="newgoods">
       <include src="newgoods.wxml"/>
     </swiper-item>
-    <swiper-item>
+    <swiper-item class="recommend">
       <include src="recommend.wxml"/>
     </swiper-item>
-    <swiper-item>
+    <swiper-item class="sale">
       <include src="sale.wxml"/>
     </swiper-item>
-    <swiper-item>
+    <swiper-item class="match">
       <include src="match.wxml"/>
     </swiper-item>
-    <swiper-item>
+    <swiper-item class="nurse">
       <include src="nurse.wxml"/>
     </swiper-item>
-    <swiper-item>
+    <swiper-item class="allgoods">
       <include src="allgoods.wxml"/>
     </swiper-item>
   </swiper>

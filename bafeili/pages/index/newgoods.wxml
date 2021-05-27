@@ -1,8 +1,41 @@
 <!-- 首页大轮播 -->
-<!-- <scroll-view class="content-info" scroll-y="true"> -->
-  <swiper class="content-info_slide" indicator-color="rgba(0, 0, 0, 0.274)" indicator-active-color="black" indicator-dots circular autoplay>
-    <swiper-item style="height:500rpx"><image src="https://diorleather.oss-cn-shenzhen.aliyuncs.com/upload/image_collection/1592963795.jpg"></image></swiper-item>
-    <swiper-item><image src="https://diorleather.oss-cn-shenzhen.aliyuncs.com/upload/image_collection/1592963812.jpg"></image></swiper-item>
-    <swiper-item><image src="https://diorleather.oss-cn-shenzhen.aliyuncs.com/upload/image_collection/1592963910.jpg"></image></swiper-item>
+<scroll-view class="content-info" scroll-y="true">
+    <swiper class="content-info_slide" indicator-color="rgba(0, 0, 0, 0.274)" indicator-active-color="black" indicator-dots circular autoplay>
+    <swiper-item><image style="height:880rpx;" src="https://diorleather.oss-cn-shenzhen.aliyuncs.com/upload/image_collection/1592963795.jpg"></image></swiper-item>
+    <swiper-item><image style="height:880rpx;"  src="https://diorleather.oss-cn-shenzhen.aliyuncs.com/upload/image_collection/1592963812.jpg"></image></swiper-item>
+    <swiper-item><image style="height:880rpx;"  src="https://diorleather.oss-cn-shenzhen.aliyuncs.com/upload/image_collection/1592963910.jpg"></image></swiper-item>
   </swiper>
-<!-- </scroll-view> -->
+  <swiper style="height:calc(60vh - 10px)" vertical="{{false}}"  indicator-color="rgba(0, 0, 0, 0.274)" indicator-active-color="black" indicator-dots circular>
+    <swiper-item class="smallCarousel">
+      <image src="https://diorleather.oss-cn-shenzhen.aliyuncs.com/upload/goods/20200617/38f10735c9de2f9ecb34696f9a50b471.jpg" alt=""></image>
+      <image src="https://diorleather.oss-cn-shenzhen.aliyuncs.com/upload/goods/20200617/c18076e08ecc7e79f51890d3b8da49fa.jpg"></image>
+      <image src="https://diorleather.oss-cn-shenzhen.aliyuncs.com/upload/goods/20200617/7437914563b725b56f53f08a7a1b8f5f.jpg"></image>
+      <image src="https://diorleather.oss-cn-shenzhen.aliyuncs.com/upload/goods/20200617/4ac33d43b0c1b4474d57af1593de50ae.jpg"></image>
+      <image src="https://diorleather.oss-cn-shenzhen.aliyuncs.com/upload/goods/20200617/1dd4dd85a66417df08f4c7a82db98b44.jpg"></image>
+      <image src="https://diorleather.oss-cn-shenzhen.aliyuncs.com/upload/goods/20200617/90ea2664027f01bd9c3b73dacbdcc5d7.jpg"></image>
+    </swiper-item>
+    <swiper-item class="more"><text>更多</text></swiper-item>
+  </swiper>
+  <view>
+    <view class="cate" bindtap="showCate" data-cate="1">
+      <image mode="widthFix" src="https://diorleather.oss-cn-shenzhen.aliyuncs.com/upload/image_collection/1592446434.jpg"></image>
+      <text class="{{cate==1?'block':'hidden'}}">包袋</text>
+    </view>
+    <view class="cate" bindtap="showCate" data-cate="2">
+      <image mode="widthFix" src="https://diorleather.oss-cn-shenzhen.aliyuncs.com/upload/image_collection/1592446459.jpg"></image>
+      <text class="{{cate==2?'block':'hidden'}}">包袋</text>
+    </view>
+    <view class="cate" bindtap="showCate" data-cate="3">
+       <image mode="widthFix" src="https://diorleather.oss-cn-shenzhen.aliyuncs.com/upload/image_collection/1592215795.jpg"></image>
+       <text class="{{cate==3?'block':'hidden'}}">包袋</text>
+    </view>
+    <view class="cate" bindtap="showCate" data-cate="4">
+      <image mode="widthFix" src="https://diorleather.oss-cn-shenzhen.aliyuncs.com/upload/image_collection/1592976166.jpg"></image>
+      <text class="{{cate==4?'block':'hidden'}}">包袋</text>
+    </view>
+    <view class="cate" bindtap="showCate" data-cate="5">
+      <image mode="widthFix" src="https://diorleather.oss-cn-shenzhen.aliyuncs.com/upload/image_collection/1592215920.jpg"></image>
+      <text class="{{cate==5?'block':'hidden'}}">包袋</text>
+    </view>
+  </view>
+</scroll-view>

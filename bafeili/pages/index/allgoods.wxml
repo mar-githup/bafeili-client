@@ -1,1 +1,17 @@
-<view>全部商品</view>
+<scroll-view class="content-info" scroll-y="true">
+  <view wx:for="{{allgoodList}}" wx:for-item="i">
+    <view class="cate" bindtap="showCate" data-cate="{{index + 1}}">
+      <image mode="widthFix" src="{{i.imgUrl}}"></image>
+      <view class="{{cate==index+1?'block':'hidden'}}"> 
+       <text wx:for="{{i.catelist}}" wx:for-item="j">
+          {{j}}
+       </text>
+      </view>
+     
+    </view>
+  </view>
+  
+</scroll-view>
+
+
+

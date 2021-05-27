@@ -1,0 +1,15 @@
+<view class="top">
+<text>BAFELLI（中文：芭菲丽）</text>
+<text>普通会员</text>
+</view>
+<view class="body">
+  <view class="title">会员等级：普通会员</view>
+  <text class="block">累计消费：<text class="right">￥0</text></text>
+  <text class="block">剩余红包金额：<text  class="right">￥100</text></text>
+  <text class="block">快递公司：<text  class="right">中通快递</text></text>
+  <text class="block">换货期限：<text  class="right">7天无理由</text></text>
+  <text class="block">会员状态：<text  class="right">正常</text></text>
+</view>
+<view class="bottom">
+  <navigator url="/pages/center/vipdetail?title=navigator">查看会员条例</navigator>
+</view>

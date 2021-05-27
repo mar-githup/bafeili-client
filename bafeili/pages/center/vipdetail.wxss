@@ -1,0 +1,4 @@
+/* pages/center/vipdetail.wxss */
+text{
+  font-size: 9pt;
+}

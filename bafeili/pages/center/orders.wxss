@@ -1,0 +1,10 @@
+/* pages/center/orders.wxss */
+@import 'center.wxss'
+.bottom > image{
+  width: 70rpx;
+  height: 70rpx;
+}
+.bottom > text{
+  top:70rpx;
+  left: 320rpx;
+}

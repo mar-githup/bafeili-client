@@ -1,1 +1,52 @@
 /* pages/center/center.wxss */
+/* 样式 */
+.top{
+  text-align: center;
+  margin-top: 50rpx;
+}
+.top .userinfo-nickname{
+  display: block;
+  color: rgb(175, 169, 169);
+  font-size: 10pt;
+}
+.top .btn{
+  width: 140rpx;
+  border-radius: 10rpx;
+  font-size: 8pt;
+  font-weight: normal;
+  padding: 10rpx 0;
+  margin-top: 10rpx;
+  border: 1px solid rgb(202, 198, 198);
+  color:rgb(175, 169, 169);
+}
+.img{
+  width: 55rpx;
+  height: 55rpx;
+  margin-bottom: 0;
+  padding: 0;
+}
+navigator{
+  border-bottom: 1px solid rgb(163, 162, 162);
+  height: 70rpx;
+  line-height: 70rpx;
+  padding-bottom: 10rpx;
+  padding-top: 20rpx;
+  font-size: 9pt;
+  position: relative;
+}
+.body > navigator > text{
+  position: absolute;
+  left: 70rpx;
+  margin-bottom: 40rpx;
+  
+}
+.bottom{
+  margin-top: 50rpx;
+  text-align: center;
+  font-size: 10pt;
+  position: relative;
+}
+.bottom  > text{
+  position: absolute;
+  bottom: 15rpx;
+}

@@ -5,7 +5,6 @@ navigator image{
   height: 16px;
   margin-left: 20rpx;
 }
-
 .tab{
   display: flex;
 }
@@ -28,15 +27,69 @@ navigator image{
 .block{
   display: block;
 }
+/* 新品推荐 */
+.newgoods{
+  height: 500rpx;
+  width: 100%;
+}
 .contain {
-  /* height: 500rpx; */
-  border: 1px solid red;
+   height: 500rpx; 
 }
-.navwrap{
-  height: 500rpx;
-  border: 1px solid green;
+swiper{
+  height:1000rpx;
+  margin: auto;
+  margin-bottom: 30rpx;
 }
-.navwrap > swiper > swiper-item {
-  height: 500rpx;
-  border: 1px solid rgb(217, 255, 0);
+.content-info{
+  height: 100%;
 }
+.content-info-portal{
+  display: flex;
+  margin-bottom: 15px;
+}
+.content-info-portal > view{
+  flex: 1;
+  font-size: 10pt;
+  text-align: center;
+}
+.content-info-portal image{
+  border-radius: 50%;
+  width: 120rpx;
+  height: 120rpx;
+  display: block;
+  margin: 20rpx auto;
+}
+.smallCarousel > image{
+  width: 31%;
+  margin: 0 1%;
+  height: 320rpx;
+}
+.more > text{
+  display: inline-block;
+  text-align: center;
+  line-height: 320rpx;
+  background-color: rgb(241, 238, 238);
+  font-size: 8pt;
+  color: #969292;
+  width: 31%;
+  margin: 0 1%;
+  height: 320rpx;
+}
+.cate{
+  margin-bottom: 20rpx;
+}
+.hidden{
+  display: none;
+}
+/* 搭配课堂 */
+.nurse{
+  width: 100%;
+  height: 480rpx;
+}
+.nurse image{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+

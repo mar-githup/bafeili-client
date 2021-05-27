@@ -1,1 +1,5 @@
-<view>护理知识</view>
+<navigator class="nurse" url="/pages/detail/detail?title=navigate" ><image src="https://diorleather.oss-cn-shenzhen.aliyuncs.com/upload/image_collection/1605231495.jpg" ></image></navigator>
+
+<video poster="https://diorleather.oss-cn-shenzhen.aliyuncs.com/upload/image_collection/1593748843.jpg" src="https://diorleather.oss-cn-shenzhen.aliyuncs.com/upload/video/1593752661.mp4" objectFit="fill"></video>
+
+

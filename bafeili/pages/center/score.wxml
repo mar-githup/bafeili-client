@@ -1,0 +1,10 @@
+<view class="top">
+<text>BAFELLI（中文：芭菲丽）</text>
+<text>我的积分</text>
+</view>
+<view class="body">
+  <text class="block">我的积分：<text class="right">￥0</text></text>
+</view>
+<view class="bottom">
+  <navigator url="/pages/center/vipdetail?title=navigator">查看积分条例</navigator>
+</view>

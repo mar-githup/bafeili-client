@@ -1,0 +1,5 @@
+<view>
+  <image style="width:70rpx;height:70rpx;" src="/static/images/center/collect.png"></image>
+  <text>您未收藏任何商品</text>
+  <button class="bttn">即可浏览</button>
+</view>

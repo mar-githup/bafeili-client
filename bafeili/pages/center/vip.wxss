@@ -1,0 +1,43 @@
+/* pages/center/vip.wxss */
+.top {
+  width: 75%;
+  height: 300rpx;
+  line-height: 300rpx;
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin: auto;
+}
+.top text{
+  display: block;
+  height: 40rpx;
+  font-size: 10pt;
+  margin-bottom: 20rpx;
+}
+.body{
+  margin-top: 30rpx;
+  font-size: 9pt;
+}
+.body .title{
+  display: block;
+  text-align: center;
+  margin-bottom: 20rpx;
+}
+.body .block{
+  margin: 3% 10%;
+  display: block;
+}
+.body .right{
+  float: right;
+}
+navigator{
+  border-bottom: 1px solid rgb(163, 162, 162);
+  border-top: 1px solid rgb(163, 162, 162);
+  height: 70rpx;
+  line-height: 70rpx;
+  padding-bottom: 10rpx;
+  padding-top: 20rpx;
+  font-size: 9pt;
+  margin-top: 30rpx;
+  text-align: center;
+}

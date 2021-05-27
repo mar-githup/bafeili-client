@@ -5,13 +5,26 @@
     "pages/code/code",
     "pages/center/center",
     "pages/store/store",
-    "pages/navigate/navigate"
+    "pages/navigate/navigate",
+    "pages/search/search",
+    "pages/detail/detail",
+    "pages/center/orders",
+    "pages/center/vip",
+    "pages/center/money",
+    "pages/center/score",
+    "pages/center/vacancy",
+    "pages/center/discount",
+    "pages/center/like",
+    "pages/center/message",
+    "pages/center/vipdetail",
+    "pages/login/login"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "BAFEILI(芭菲丽)",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": true
   },
   "tabBar": {
     "color": "#ccc",

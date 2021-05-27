@@ -1,1 +1,5 @@
-<view>搭配课堂</view>
+<scroll-view class="content-info" scroll-y="true">
+  <view class="video-list" wx:for="{{movieList}}" wx:key="user">
+    <video poster="{{item.cover_img}}" src="{{item.src}}" objectFit="fill"></video>
+  </view> 
+</scroll-view>

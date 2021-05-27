@@ -1,2 +1,52 @@
 <!--pages/center/center.wxml-->
-<text>pages/center/center.wxml</text>
+  <!-- 上方用户信息 -->
+  <view class="top">
+     <view class="user" style="margin-top:{{navigationBarAndStatusBarHeight}}">
+      <view class="userinfo">
+        <button class="btn" wx:if="{{!userInfo}}"  bindtap="bindViewTap"> 授权登入 </button>
+        <block wx:else>
+          <image src="{{userInfo.avatarUrl}}" style="width:100rpx;height:100rpx;border-radius:50%"></image>
+          <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+          <button class="btn">English</button>
+        </block>
+      </view>
+    </view>
+  </view>
+  <view class="body">
+    <navigator  url="/pages/center/orders?title=navigator">
+      <image class="img" src="/static/images/center/order.png"></image>
+      <text>我的订单</text>  
+    </navigator>
+    <navigator url="/pages/center/vip?title=navigator">
+      <image class="img" src="/static/images/center/vip.png"></image>
+      <text>我的VIP</text>
+    </navigator>
+    <navigator url="/pages/center/money?title=navigator">
+      <image class="img" src="/static/images/center/order.png"></image>
+      <text>我的佣金</text> 
+    </navigator>
+    <navigator url="/pages/center/score?title=navigator">
+      <image class="img" src="/static/images/center/order.png"></image>
+      <text>我的积分</text> 
+    </navigator>
+    <navigator url="/pages/center/vacancy?title=navigator">
+      <image class="img" src="/static/images/center/order.png"></image>
+      <text>我的余额</text> 
+    </navigator>
+    <navigator url="/pages/center/discount?title=navigator">
+      <image class="img" src="/static/images/center/note.png"></image>
+      <text>我的优惠券</text> 
+    </navigator>
+    <navigator url="/pages/center/like?title=navigator">
+      <image class="img" src="/static/images/center/collect.png"></image>
+      <text>我的收藏</text> 
+    </navigator>
+    <navigator url="/pages/center/message?title=navigator">
+      <image class="img" src="/static/images/center/message.png"></image>
+      <text>消息通知</text> 
+    </navigator>
+  </view>
+<view class="bottom" bindtap="quit">
+  <image class="img" src="/static/images/center/quit.png"></image>
+  <text>退出</text> 
+</view>
